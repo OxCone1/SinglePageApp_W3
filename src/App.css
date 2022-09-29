@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+html{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin-top: 56px;
+  font-size: 35px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#imageContainer{
+  margin-top: 56px;
+  width: 100vw;
+  height: 20vh;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/src/emojibg.png);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#nav{
+  margin-bottom: 0!important;
+}
+#homeElements{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer{
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  position: fixed;
+  padding: 15px 0;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  bottom: 0;
+  width: 100%;
 }
